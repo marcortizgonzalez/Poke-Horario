@@ -5,27 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Poke-Horario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/code.js"></script>
     <link rel="shortcut icon" href="img/iconball.webp" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Poke-Horario</title>
 </head>
 
 <body>
     <header class="flex">
-        <h1>¡Buenas noches!</h1>
+        <h1 id="mensaje"></h1>
     </header>
-
     <div class="scrollmenu">
-        <!--
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a> ...
-        -->
-
         <div class="card"><img src="img/IMG_1.PNG" alt=""></div>
         <div class="card"><img src="img/IMG_2.PNG" alt=""></div>
         <div class="card"><img src="img/IMG_3.PNG" alt=""></div>
@@ -37,8 +30,7 @@
         <div class="card"><img src="img/IMG_9.PNG" alt=""></div>
         <div class="card"><img src="img/IMG_10.PNG" alt=""></div>
     </div>
-
-    <footer class="flex"><img class="button" src="./img/iconball.webp" alt="" </footer>
+    <footer class="flex"><img onclick="listRandom();" id="pokeball" class="button" src="img/iconball.webp"></footer>
 </body>
 
 </html>
